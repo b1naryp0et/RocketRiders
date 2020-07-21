@@ -4,6 +4,22 @@
 
 ## Introduction
 Rocket Riders is a quirky game created by Team Synergy(Chris Williams, William Dyrland-Marquis, and Faizan Khan) designed to bring people together through the pursuit of decimating the alien horde which threatens us 👽 Rocket Riders allows up to 2 players  🎮 to team up and use their respective ships to attack the enemies, which fill up the screen quickly.
+## About Me
+Hi, I'm Faizan, a software engineer with an interest in Data Science. I spent the last year learning how to code through the project based curriculum at Holberton School. Before learning software engineering, I was in management. 
+
+## Developing Rocket Riders
+[Christian Williams](https://www.linkedin.com/in/christian--williams), [William Dyrland-Marquis](https://www.linkedin.com/in/william-dyrland-marquis), and [I](https://www.linkedin.com/in/fkkhan)  decided to form a team because we realized we would work well together. We had similar working styles and our skills complimented each other's skills quite well. We determined that a fun shmup (Shoot em up) in the vein of [Blazing Lazers](https://www.youtube.com/watch?v=OquO7XKHDT4) or [U.N. Squadron](https://www.youtube.com/watch?v=lY4Z8I7oA5A&t=142s) would allow us to cross off a few items on our respective software engineering to do lists. First of all, we desired to create a program which neither of us possessed any experience in 😱Secondly, we determined that each of us should learn at least two new technologies, frameworks, libraries, programming languages, etc… Finally, we agreed that we should create something which is appealing to non-technologists.
+
+Our game, [Rocket Riders](https://thefunonline.tech/), touches on all of these facets.
+
+## Implemented and Non-Implemented Features
+Most of the major features we endeavored to implement did end up being present in the game. This includes multiple enemy types, a start screen with a smooth transition, and cut scenes.
+
+Features that we didn't implement but may attempt to do so in the future are network multiplayer(right now, we only have local multiplayer, and multiple levels.
+
+## Challenges
+By far, the most difficult technical challenge which we encountered, and overcame, was the implementation of text boxes into our game. I know, it doesn’t sound difficult, but we were plagued by horrendously bad documentation in Phaser 3. We attempted to use a Phaser 3 plugin called [rexUI](https://phaser.io/news/2019/01/rexui-plugins). We studied the documentation, used the example code on the phaser 3 website, and the text boxes still wouldn’t load. After performing some digging, we figured out how to include just the specific part of the plugin that we were going to use. We decided to place this portion of the plugin into a script, which would load from a JavaScript content delivery network. Fortunately, this worked as intended.
+
 #### Link to our site
 [Here's a link to our website, where you can play Rocket Riders](https://thefunonline.tech/)
 #### Article about what it took to create Rocket Riders
@@ -11,7 +27,7 @@ Rocket Riders is a quirky game created by Team Synergy(Chris Williams, William D
 #### Listed below are our Github, LinkedIn and Twitter Profiles. Please reach out, message, and connect with us!
 * Christian Williams 🐦 [chriswill88](https://github.com/chriswill88) | [@ChrisWill79](https://twitter.com/ChrisWill79) | [My LinkedIn](https://www.linkedin.com/in/christian--williams/)
 *  William Dyrland-Marquis🥇 [maybe-william](https://github.com/maybe-william) | [@notwilliam4](https://twitter.com/notwilliam4) | [My LinkedIn](https://www.linkedin.com/in/william-dyrland-marquis/)
-* Faizan Khan 🌌 [b1naryp0et](https://github.com/b1naryp0et) | [@b1nary_p0et](https://twitter.com/b1nary_p0et) | [My LinkedIn](https://www.linkedin.com/in/fkkhan/)
+* Faizan Khan 🌌 [b1naryp0et](https://github.com/b1naryp0et) | [@b1nary_p0et](https://twitter.com/b1nary_p0et) | [My LinkedIn](https://www.linkedin.com/in/fkkhan/) [This Project's Repo](https://github.com/maybe-william/RocketRiders)
 ## Installation
 Rocket Riders requires no installation! Our game is hosted on our website and is easily playable on your desktop or laptop. To play our game immediately, [Click here.](https://thefunonline.tech/game/index.html)
 ## Usage
